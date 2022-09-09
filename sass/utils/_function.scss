@@ -1,5 +1,5 @@
 @function lh($lh, $fz) {
-	@return floor(calc(($lh / $fz) * 100)) / 100;
+	@return calc(floor(calc(($lh / $fz) * 100)) / 100);
 }
 
 @function item-base($columns, $gap) {

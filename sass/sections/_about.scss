@@ -1,22 +1,22 @@
-.about-container {
+.about__container {
     display: flex;
     gap: 30px;
 }
 
-.about-list {
+.about__list {
     display: flex;
     gap: 30px;
 }
 
-.about-content {
+.about__content {
     max-width: 470px;
 }
 
-.about-subtitle {
+.about__subtitle {
     margin-bottom: 20px;
 }
 
-.about-text {
+.about__text {
     font-size: 14px;
     line-height: 1.86;
     letter-spacing: 0.02em;
